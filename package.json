@@ -1,0 +1,28 @@
+{
+  "name": "testing_with_mocha",
+  "version": "1.0.0",
+  "description": "unit testing with javascript, mocha and sinon",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './specs/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavi99sandamini151/testing_with_mocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavi99sandamini151/testing_with_mocha/issues"
+  },
+  "homepage": "https://github.com/Pavi99sandamini151/testing_with_mocha#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.4"
+  },
+  "dependencies": {
+    "nock": "^13.3.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
